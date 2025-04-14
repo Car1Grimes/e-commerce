@@ -1,7 +1,6 @@
+//
+import { Routes, Route } from "react-router-dom";
+import { PromoBar } from "./components/common/PromoBar";
 export default function App() {
-  return (
-    <main>
-      <div className="w-screen h-screen bg-amber-50"></div>
-    </main>
-  );
+  return <PromoBar />;
 }
