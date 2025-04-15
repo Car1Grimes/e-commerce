@@ -9,5 +9,6 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "HarmoniaSansW01";
+  font-family: "SF Mono", monospace;
+  font-weight: 400;
 }
