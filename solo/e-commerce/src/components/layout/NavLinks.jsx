@@ -4,8 +4,8 @@ import { useState } from "react";
 export function NavLinks() {
   const [active, setActive] = useState("Home");
   const linkClassName =
-    "text-4xl px-2 py-5 border-b border-transparent transition-all duration-200 ease-in hover:border-gray-700";
-  const activeLinkClassName = "text-4xl px-2 py-5 border-b border-gray-700";
+    "text-3xl px-2 py-5 border-b border-transparent transition-all duration-200 ease-in hover:border-gray-700";
+  const activeLinkClassName = "text-3xl px-2 py-5 border-b border-gray-700";
 
   function handleActive(e) {
     setActive(e);
