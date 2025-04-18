@@ -12,3 +12,15 @@ body {
   font-family: "SF Mono", monospace;
   font-weight: 400;
 }
+
+.tag::before {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  content: "";
+  height: 35px;
+  width: 15px;
+  background-color: red;
+  border-radius: 3px;
+  transform: translateY(-25%);
+}

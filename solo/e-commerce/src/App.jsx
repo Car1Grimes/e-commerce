@@ -10,7 +10,7 @@ export default function App() {
       <PromoBar />
       <Navbar />
       <PageContent>
-        <Outlet />
+        <Outlet />{" "}
       </PageContent>
       <Footer />
     </>
